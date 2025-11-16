@@ -8,8 +8,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-_data_path = os.path.join("..", "data")
+project_root = os.getcwd()
+_data_path = os.path.join(project_root, "data")
 
 
 def load_csv(name: str):

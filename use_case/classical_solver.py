@@ -3,7 +3,7 @@
 Spectral clustering + direct optimization
 """
 
-from tac_data_loader import TACDataLoader
+from .tac_data_loader import TACDataLoader
 from sklearn.cluster import SpectralClustering
 import numpy as np
 
